@@ -42,7 +42,7 @@ The program ascii_chart
 
 This program takes data in a two column ascii format (labels, data; see Sample data files) and plots them using the libplot routine of the plotutils package. It is based on the piechart program of  Bernhard Reiter,  without which I could not have written the code which plotted the linebars. Both this program and its piechart basis are released under the GPL version 2.
 
-To install it you need the makefile and source listed below and the plotutils-2.2 package.  This is best downloaded fom a mirror of the www.gnu.org site.
+To install it you need the makefile and source listed below and the plotutils package.  This is best downloaded fom a mirror of the www.gnu.org site.
 You will have to alter the Makefile to reflect the places in which you put the library libplot.so the binary files (eg plot) and the source files from the plotutils package.
 
 To run  the program use a command line like thes two examples where the display type, title, axis labels etc are provided by command line parameters and the data from an ascii file
