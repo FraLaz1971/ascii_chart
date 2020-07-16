@@ -73,11 +73,9 @@
 void print_version(FILE *file)
 {
              fprintf(file,"ascii_chart version " VERSION "\n"); 
-             fprintf(file,"Copyright (C) 1998 - 2020" 
-		"by Bernhard Reiter & Chris Elliott, \n"
-		"updated by Francesco Lazzarotto. \n"
-             	    "The GNU GENERAL PUBLIC LICENSE v3 applies. "
-             	    	"Absolutly No Warranty!\n");
+             fprintf(file,"Copyright (C) 1998 - 2020\n " 
+		"by Bernhard Reiter & Chris Elliott, updated by Francesco Lazzarotto. \n"
+             	    "The GNU GENERAL PUBLIC LICENSE v3 applies. Absolutly No Warranty!\n");
 #ifdef DEBUG
              fprintf(file,"compiled with option: DEBUG\n"); 
 #endif
